@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Computer Math</title>
+</head>
+<body>
+    <div class="input-value">
+        <input type="text" readonly id="valuet">
+    </div>
+    <div class="back-calc">
+        <div class="numbers-zero">
+            <input type="button" value="0" onclick="valuet.value += 0"> 
+
+        </div>
+        <div class="numbers-one">
+            <input type="button" value="1" id="one" onclick="valuet.value += 1">
+
+        </div>
+        <div class="numbers-two">
+            <input type="button"  id="adunare" value="2" onclick="valuet.value += 2">
+
+        </div>
+        <div class="numbers-tree">
+            <input type="button"id="adunare" value="3"  onclick="valuet.value += 3">
+
+        </div>
+        <div class="numbers-four">
+            <input type="button" value="4" id="adunare"  onclick="valuet.value += 4">
+
+        </div>
+        <div class="numbers-five">
+            <input type="button" value="5" id="adunare"  onclick="valuet.value += 5">
+
+        </div>
+        <div class="numbers-six">
+            <input type="button" value="6" id="adunare"  onclick="valuet.value += 6">
+
+        </div>
+        <div class="numbers-seeven">
+            <input type="button" value="7"  id="adunare"  onclick="valuet.value += 7">
+
+        </div>
+        <div class="numbers-eight">
+            <input type="button" value="8"  id="adunare"  onclick="valuet.value += 8">
+
+        </div>
+        <div class="numbers-nine">
+            <input type="button" value="9"  id="adunare" onclick="valuet.value += 9">
+
+        </div>
+        <div class="minus">
+            <input type="button" value="-" onclick="valuet.value += '-'" id="adunare">
+
+        </div>
+        <div class="inmultire">
+        <input type="button" value="x" onclick="valuet.value += '*'" id="adunare">
+
+        </div>
+        <div class="impartire">
+            <input type="button" value="÷" onclick="valuet.value += '/'" id="adunare">
+        </div>
+        <div class="plus">
+            <input type="button" value="+"  onclick="valuet.value += '+'" id="adunare">
+        </div>
+        <div class="egal">
+            <input type="button"  value="=" onclick=" ds(),  valuet.value = eval(valuet.value)" id="rezultat-egal">
+        </div>
+        <div class="clear">
+            <input type="button"  value="Clear" onclick="valuet.value = valuet.value.toString().slice(0, -1)">
+        </div>
+    </div>
+    <script>
+        function ds(){
+            if(valuet.value === ''){
+                alert('You need to put numbers inside the input')
+                value.remove()
+            }
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #02062a;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.back-calc {
+    position: relative;
+    left: 200px;
+    top: -60px;
+}
+
+
+.numbers-zero input{
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    background-color: #1c2680;
+    width:150px;
+    height: 60px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    transition: all 1s ease;
+}
+.numbers-zero input:hover {
+    background-color: rgb(6, 141, 87);
+    cursor: pointer;
+}
+
+.numbers-one input {
+    position: absolute;
+    top: 427px;
+    left: 400px;
+    background-color: #1c2680;
+    width:80px;
+    height: 55px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    transition: all 1s ease;
+}
+.numbers-one input:hover {
+    background-color: rgb(6, 141, 87);
+    cursor: pointer;
+}
+.numbers-two input {
+    position: absolute;
+    top: 427px;
+    left: 491px;
+    background-color: #1c2680;
+    width:80px;
+    height: 55px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    transition: all 1s ease;
+}
+.numbers-two input:hover {
+    background-color: rgb(6, 141, 87);
+    cursor: pointer;
+
+}
+.numbers-tree input {
+    position: absolute;
+    top: 427px;
+    left: 581px;
+    background-color: #1c2680;
+    width:80px;
+    height: 55px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    transition: all 1s ease;
+
+}
+.numbers-tree input:hover {
+    background-color: rgb(6, 141, 87);
+    cursor: pointer;
+
+}
+
+.numbers-four input{
+    position: absolute;
+    top: 357px;
+    left: 400px;
+    background-color: #1c2680;
+    width:80px;
+    height: 55px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    transition: all 1s ease;
+
+}
+
+.numbers-four input:hover {
+    background-color: rgb(6, 141, 87);
+    cursor: pointer;
+
+}
+
+.numbers-five input {
+    position: absolute;
+    top: 357px;
+    left: 491px;
+    background-color: #1c2680;
+    width:80px;
+    height: 55px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    transition: all 1s ease;
+
+}
+
+.numbers-five input:hover {
+    background-color: rgb(6, 141, 87);
+    cursor: pointer;
+
+}
+.numbers-six input {
+    position: absolute;
+    top: 357px;
+    left: 581px;
+    background-color: #1c2680;
+    width:80px;
+    height: 55px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    transition: all 1s ease;
+
+}
+.numbers-six input:hover {
+    background-color: rgb(6, 141, 87);
+    cursor: pointer;
+
+}
+
+.numbers-seeven input{
+    position: absolute;
+    top: 287px;
+    left: 400px;
+    background-color: #1c2680;
+    width:80px;
+    height: 55px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    transition: all 1s ease;
+
+}
+.numbers-seeven input:hover {
+    background-color: rgb(6, 141, 87);
+    cursor: pointer;
+
+}
+
+.numbers-eight input {
+    position: absolute;
+    top: 287px;
+    left: 491px;
+    background-color: #1c2680;
+    width:80px;
+    height: 55px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    transition: all 1s ease;
+
+}
+.numbers-eight input:hover {
+    background-color: rgb(6, 141, 87);
+    cursor: pointer;
+
+}
+.numbers-nine input {
+    position: absolute;
+    top: 287px;
+    left: 581px;
+    background-color: #1c2680;
+    width:80px;
+    height: 55px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    transition: all 1s ease;
+
+}
+.numbers-nine input:hover {
+    background-color: rgb(6, 141, 87);
+    cursor: pointer;
+
+}
+.inmultire input {
+    position: absolute;
+    top: 287px;
+    left: 672px;
+    background-color: #1c2680;
+    width:80px;
+    height: 55px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    transition: all 1s ease;
+
+}
+.inmultire input:hover {
+    background-color: rgb(9, 189, 117);
+    cursor: pointer;
+
+}
+
+.minus input {
+    position: absolute;
+    top: 357px;
+    left: 672px;
+    background-color: #1c2680;
+    width:80px;
+    height: 55px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    transition: all 1s ease;
+
+}
+.minus input:hover {
+    background-color: rgb(6, 141, 87);
+    cursor: pointer;
+}
+.inmultire input:hover {
+    background-color: rgb(9, 189, 117);
+    cursor: pointer;
+
+}
+.impartire input {
+    position: absolute;
+    top: 427px;
+    left: 672px;
+    background-color: #1c2680;
+    width:80px;
+    height: 55px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    transition: all 1s ease;
+
+}
+.impartire input:hover {
+    background-color: rgb(9, 189, 117);
+    cursor: pointer;
+
+}
+.plus input {
+    position: absolute;
+    top: 500px;
+    left: 672px;
+    background-color: #1c2680;
+    width:80px;
+    height: 55px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    transition: all 1s ease;
+
+}
+.plus input:hover {
+    background-color: rgb(6, 141, 87);
+    cursor: pointer;
+}
+.egal input{
+    position: absolute;
+    top: 500px;
+    left: 560px;
+    background-color: #1c2680;
+    width:101px;
+    height: 60px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    transition: all 1s ease;
+}
+.egal input:hover {
+    background-color: rgb(6, 141, 87);
+    cursor: pointer;
+}
+
+.input-value input {
+    position: relative;
+    border: none;
+    top: 216px;
+    left: 600px;
+    outline: none;
+    width:353px;
+    font-size: 30px;
+    height:66px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.501);
+    text-align: right;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.clear input{
+    position: absolute;
+    top: 500px;
+    left: 800px;
+    background-color: #1c2680;
+    width:150px;
+    height: 60px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    transition: all 1s ease;
+}
+.clear input:hover {
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
